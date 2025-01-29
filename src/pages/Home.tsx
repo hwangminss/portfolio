@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import '../components/Common.css';
 
 const Home: React.FC = () => {
@@ -9,8 +8,7 @@ const Home: React.FC = () => {
 
     return (
         <div className="container" onContextMenu={handleRightClick}>
-            <p>Welecome to Mins Portfolio</p>
-            <Footer/>
+            <p>Welcome to Min's Portfolio</p>
         </div>
     );
 };
