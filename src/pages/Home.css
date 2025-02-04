@@ -1,0 +1,14 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: gray;
+}

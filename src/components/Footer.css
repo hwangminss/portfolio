@@ -1,13 +1,23 @@
 .footer {
-    background-color: #f8f9fa;
+    background-color: black;
     padding: 20px;
     text-align: center;
     font-family: 'GowunDodum-Regular', Arial, sans-serif;
-    border-top: 1px solid #e9ecef;
+    border-top: 1px solid #333;
+    transition: background 0.3s, color 0.3s;
 }
 
 .footer p {
     margin: 5px 0;
-    color: #6c757d;
+    color: white;
     font-size: 14px;
+}
+
+.dark-mode .footer {
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+
+.dark-mode .footer p {
+    color: black;
 }
